@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de tarefas</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
+
+</head>
+<div>
+    <h1>lista de tarefas</h1>
+    <div class="container">
+      <div class="box">   
+        <!-- form -->
+        <form id="tarefa_form" class="tarefa_form" method="post"> 
+          <div>
+            <input id="nome_input" class="nome_input" type="text" autocomplete="off">
+            <button id="botao" type="submit">CRIAR TAREFA</button> 
+          </div>          
+        </form>
+        <div id="resultado" class="todolist"></div>
+      </div>
+      </div>
+    </div>
+</div>
+  <script src="../src/index.mjs" type="module"></script>
+</body>
+</html>
